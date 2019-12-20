@@ -1,18 +1,57 @@
-
 <html>
-    <title>
-        Robert Holmes
-    </title>
-
+    <head>
+        <title>
+            Robert Holmes
+        </title>
+        <link rel="Stylesheet" type="text/css" href="style.css" />
+    </head>
     <body>
-        <h1>Things I like</h1>
-        <p>written by me</p>
-        <ul>
-            <l1>Kanye</l1>
-            <l2>Games</l2>
-            <l3>Coding</l3>
-            <l4>Food</l4>
-        </ul>
-    </body>
+        <div id="header">
+            <h1>Robert A. Holmes</h1>
+        </div>
+        <div id="desc">
+            <p>Hi! My name is Robby, and I am pursuing a BS in Computer Science and Political Science at Vanderbilt University.</p>
+            <p>I am currently seeking a Software Engineering internship for the Summer of 2020.</p>
+            <p>Click any of the tabs below to learn more.</p>
+        </div>
+        <button class="collapsible">About Me</button>
+        <div class="content">
+            <P>about me is written here</P>
+        </div>
+        <button class="collapsible">Work Experience</button>
+        <div class="content">
+            <P>work experience is written here</P>
+        </div><button class="collapsible">Academics</button>
+        <div class="content">
+            <P>academics are written here</P>
+        </div>
+        <button class="collapsible">Projects</button>
+        <div class="content">
+            <P>projects are written here</P>
+        </div>
+        <button class="collapsible">Languages</button>
+        <div class="content">
+            <P>languages are written here</P>
+        </div>
+        <button class="collapsible">Contact</button>
+        <div class="content">
+            <P>contact info is written here</P>
+        </div>
 
+        <script>
+            var coll = document.getElementsByClassName("collapsible");
+            var i;
+            for (i = 0; i < coll.length; i++) {
+                coll[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    var content = this.nextElementSibling;
+                    if (content.style.display === "block") {
+                        content.style.display = "none";
+                    } else {
+                        content.style.display = "block";
+                    }
+                });
+            }
+        </script>
+    </body>
 </html>
