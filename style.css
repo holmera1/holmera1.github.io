@@ -3,7 +3,7 @@ body {
     padding-right: 75px;
     padding-bottom: 50px;
     padding-left: 75px;
-    font-family: Lucida Console;
+    font-family: Trebuchet MS;
     background-color: rgb(243, 243, 243);
     line-height: 175%;
     text-align: left;
@@ -41,7 +41,7 @@ a {
     border-width: 5px;
     border-color:  rgb(243, 243, 243);
     outline: none;
-    font-family: Lucida Console;
+    font-family: Trebuchet MS;
     font-size: 18px;
     text-align: left;
     animation-name: fade, showin;
@@ -88,6 +88,14 @@ a {
     background-color: rgb(243, 243, 243);
     font-size: 14px;
     color: #FF5555;
+}
+
+.personal {
+    color: rgb(204, 98, 246);
+}
+
+.course {
+    color: rgb(255, 147, 85);
 }
 
 @keyframes fade {
