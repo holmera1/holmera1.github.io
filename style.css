@@ -3,12 +3,14 @@ body {
     padding-right: 75px;
     padding-bottom: 50px;
     padding-left: 75px;
-    font-family: Courier New;
+    font-family: Lucida Console;
+    background-color: rgb(243, 243, 243);
 }
 
 a {
     animation-name: fade, showin;
-    animation-duration: 0.5s;
+    animation-duration: 0.4s;
+    color: #7B8BA5;
 }
 
 #kanye {
@@ -21,28 +23,47 @@ a {
     text-align: left;
     animation-name: showin;
     animation-duration: 1s;
+    font-size: 22px;
 }
 
 #desc {
-    font-size: 18px;
+    font-size: 16px;
     animation-name: showin;
     animation-duration: 1s;
 }
 
 .collapsible {
-    background-color: #ffffff;
+    background-color: rgb(243, 243, 243);
     color: #444;
     cursor: pointer;
     padding-top: 18px;
     padding-bottom: 18px;
     width: 100%;
-    border: none;
+    border-style: solid;
+    border-width: 5px;
+    border-color:  rgb(243, 243, 243);
     text-align: left;
     outline: none;
-    font-family: Courier New;
-    font-size: 22px;
+    font-family: Lucida Console;
+    font-size: 18px;
     animation-name: fade, showin;
     animation-duration: 1s;
+}
+
+.collapsible:hover {
+    background-color: rgb(223, 223, 223);
+}
+
+.collapsible:after {
+    content: '\02795';
+    font-size: 13px;
+    color: black;
+    float: left;
+    margin-right: 10px;
+}
+
+.active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
 
 .content {
@@ -51,12 +72,26 @@ a {
     text-indent: 40px;
     display: none;
     overflow: hidden;
-    background-color: #ffffff;
-    font-size: 18px;
+    background-color: rgb(243, 243, 243);
+    font-size: 16px;
     animation-name: fade, showin;
-    animation-duration: 0.5s;
+    animation-duration: 0.4s;
 
-  }
+}
+
+.detailsCS {
+    text-indent: 80px;
+    background-color: rgb(243, 243, 243);
+    font-size: 14px;
+    color: #62A3F6;
+}
+
+.detailsPSCI {
+    text-indent: 80px;
+    background-color: rgb(243, 243, 243);
+    font-size: 14px;
+    color: #FF5555;
+}
 
 @keyframes fade {
     from {
