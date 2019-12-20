@@ -3,7 +3,7 @@ body {
     padding-right: 75px;
     padding-bottom: 50px;
     padding-left: 75px;
-    font-family: Candara;
+    font-family: Courier New;
 }
 
 a {
@@ -39,7 +39,7 @@ a {
     border: none;
     text-align: left;
     outline: none;
-    font-family: Candara;
+    font-family: Courier New;
     font-size: 22px;
     animation-name: fade, showin;
     animation-duration: 1s;
