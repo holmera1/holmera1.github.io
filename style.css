@@ -5,6 +5,8 @@ body {
     padding-left: 75px;
     font-family: Lucida Console;
     background-color: rgb(243, 243, 243);
+    line-height: 175%;
+    text-align: left;
 }
 
 a {
@@ -15,15 +17,12 @@ a {
 
 #kanye {
     float: right;
-    animation-name: showin;
-    animation-duration: 1s;
 }
 
 #header {
-    text-align: left;
+    font-size: 22px;
     animation-name: showin;
     animation-duration: 1s;
-    font-size: 22px;
 }
 
 #desc {
@@ -34,7 +33,6 @@ a {
 
 .collapsible {
     background-color: rgb(243, 243, 243);
-    color: #444;
     cursor: pointer;
     padding-top: 18px;
     padding-bottom: 18px;
@@ -42,10 +40,10 @@ a {
     border-style: solid;
     border-width: 5px;
     border-color:  rgb(243, 243, 243);
-    text-align: left;
     outline: none;
     font-family: Lucida Console;
     font-size: 18px;
+    text-align: left;
     animation-name: fade, showin;
     animation-duration: 1s;
 }
@@ -57,19 +55,18 @@ a {
 .collapsible:after {
     content: '\02795';
     font-size: 13px;
-    color: black;
     float: left;
     margin-right: 10px;
 }
 
 .active:after {
-    content: "\2796"; /* Unicode character for "minus" sign (-) */
+    content: "\2796";
 }
 
 .content {
     padding-top: 10px;
     padding-bottom: 10px;
-    text-indent: 40px;
+    padding-left: 40px;
     display: none;
     overflow: hidden;
     background-color: rgb(243, 243, 243);
@@ -80,14 +77,14 @@ a {
 }
 
 .detailsCS {
-    text-indent: 80px;
+    margin-left: 80px;
     background-color: rgb(243, 243, 243);
     font-size: 14px;
     color: #62A3F6;
 }
 
 .detailsPSCI {
-    text-indent: 80px;
+    margin-left: 80px;
     background-color: rgb(243, 243, 243);
     font-size: 14px;
     color: #FF5555;
