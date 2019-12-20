@@ -1,0 +1,66 @@
+body {
+    padding-top: 50px;
+    padding-right: 75px;
+    padding-bottom: 50px;
+    padding-left: 75px;
+    font-family: Candara;
+}
+
+#header {
+    text-align: left;
+    animation-name: showin;
+    animation-duration: 1s;
+}
+
+#desc {
+    font-size: 18px;
+    animation-name: showin;
+    animation-duration: 1s;
+}
+
+.collapsible {
+    background-color: #ffffff;
+    color: #444;
+    cursor: pointer;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-family: Candara;
+    font-size: 22px;
+    animation-name: fade, showin;
+    animation-duration: 1s;
+}
+
+.content {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-indent: 40px;
+    display: none;
+    overflow: hidden;
+    background-color: #ffffff;
+    font-size: 18px;
+    animation-name: fade, showin;
+    animation-duration: 0.5s;
+
+  }
+
+@keyframes fade {
+    from {
+        transform: translateX(-80px);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes showin {
+    from {
+        color: rgba(255, 255, 255, 0);
+    }
+    to {
+        color: rgba(0, 0, 0, 0.5);
+    }
+}
