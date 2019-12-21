@@ -9,13 +9,13 @@
     </head>
     <body>
         <div id="header">
-            <p>Robert A. Holmes
-                <a href="https://www.vanderbilt.edu/" target="_blank"><img src="media/vandy.png" id="kanye" height="125" width="125">
+            <p>Robert A. Holmes | Computer Science Student
+                <a href="https://www.vanderbilt.edu/" target="_blank"><img src="media/vandy2.png" id="kanye" height="150" width="150">
                 </a>
             </p>
         </div>
         <div id="desc">
-            <p>My name is Robby, and I am a Junior pursuing a BS in Computer Science and Political Science at Vanderbilt University.</p>
+            <p>My name is Robby, and I am a Junior pursuing a B.S. in Computer Science and Political Science at Vanderbilt University.</p>
             <p>I am currently seeking a Software Engineering internship for the Summer of 2020.</p>
             <p>Click any of the tabs below to learn more!</p>
         </div>
@@ -47,7 +47,7 @@
         </div>
         <button class="collapsible">Programming Languages</button>
         <div class="content">
-            <P>Ranked from highest to lowest proficiency:</P>
+            <P>Ranked from most to least experience:</P>
             <P>C++</P>
             <P>Java</P>
             <P>Python</P>
@@ -56,7 +56,13 @@
         </div>
         <button class="collapsible">About Me</button>
         <div class="content">
-            <P>about me is written here</P>
+            <P>🎧 You can find me listening to anything from rap (<a href="https://www.youtube.com/watch?v=sk3rpYkiHe8" target="_blank">Kanye West</a>) 
+                to pop (<a href="https://www.youtube.com/watch?v=NKkXpkZ4wLA" target="_blank">Quinn XCII</a>) 
+                and even punk rock (<a href="https://www.youtube.com/watch?v=6Uwb_1GtS_g" target="_blank">Sorority Noise</a>).</P>
+            <P>🎮 I enjoy playing video games from all genres. Some of my all-time favorite are Call of Duty, Skyrim, 
+                <a href="https://www.stardewvalley.net/" target="_blank">Stardew Valley</a>, and Pokemon.</P>
+            <P>👦 I am a proud member of the Sigma chapter of the Pi Kappa Alpha fraternity, and served as Sergeant at Arms for the 2019 calendar year.</P>
+            <P>🏈 Being from the Tampa Bay area, I am a huge fan of the Buccaneers, and an avid viewer of the NFL in general! <a href="https://www.buccaneers.com/news/" target="_blank">#GoBucs</a></P>
         </div>
         <button class="collapsible">Contact</button>
         <div class="content">
@@ -68,15 +74,15 @@
         </div>
         <button class="collapsible">Website Info</button>
         <div class="content">
-            <P>Copyright &copy; Robert Holmes 2019</P>
-            <P>Built using HTML5 and CSS</P>
+            <P>Copyright &copy; Robert Holmes, 2019</P>
+            <P>Built from scratch using HTML5, CSS, and JavaScript</P>
         </div>
 
         <script>
-            var coll = document.getElementsByClassName("collapsible");
+            var collapse = document.getElementsByClassName("collapsible");
             var i;
-            for (i = 0; i < coll.length; i++) {
-                coll[i].addEventListener("click", function() {
+            for (i = 0; i < collapse.length; i++) {
+                collapse[i].addEventListener("click", function() {
                     this.classList.toggle("active");
                     var content = this.nextElementSibling;
                     if (content.style.display === "block") {
