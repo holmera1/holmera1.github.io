@@ -79,23 +79,13 @@ a {
 .detailsCS {
     margin-left: 80px;
     background-color: white;
-    font-size: 14px;
-    color: #62A3F6;
+    font-size: 15px;
 }
 
 .detailsPSCI {
     margin-left: 80px;
     background-color: white;
-    font-size: 14px;
-    color: #FF5555;
-}
-
-.personal {
-    color: rgb(204, 98, 246);
-}
-
-.course {
-    color: rgb(255, 147, 85);
+    font-size: 15px;
 }
 
 @keyframes fade {
