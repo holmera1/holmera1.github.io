@@ -3,7 +3,7 @@ body {
     padding-bottom: 50px;
     padding-left: 75px;
     font-family: Trebuchet MS;
-    background-color: white;
+    background-color: #18191A;
     line-height: 175%;
     text-align: left;
 }
@@ -23,29 +23,32 @@ a {
     font-size: 22px;
     animation-name: showin;
     animation-duration: 1s;
+    color: #E4E6EB;
 }
 
 #desc {
     font-size: 16px;
     animation-name: showin;
     animation-duration: 1s;
+    color: #E4E6EB;
 }
 
 .collapsible {
-    background-color: rgb(243, 243, 243);
+    background-color: #404040;
     cursor: pointer;
     padding-top: 18px;
     padding-bottom: 18px;
     width: 100%;
     border-style: solid;
     border-width: 5px;
-    border-color:  white;
+    border-color:  #18191A;
     outline: none;
     font-family: Trebuchet MS;
     font-size: 18px;
     text-align: left;
     animation-name: fade, showin;
     animation-duration: 1s;
+    color: #E4E6EB;
 }
 
 .collapsible:hover {
@@ -69,23 +72,25 @@ a {
     padding-left: 40px;
     display: none;
     overflow: hidden;
-    background-color: white;
+    background-color: #18191A;
     font-size: 16px;
     animation-name: fade, showin;
     animation-duration: 0.4s;
-
+    color: #E4E6EB;
 }
 
 .detailsCS {
     margin-left: 80px;
-    background-color: white;
+    background-color: #18191A;
     font-size: 15px;
+    color: #E4E6EB;
 }
 
 .detailsPSCI {
     margin-left: 80px;
-    background-color: white;
+    background-color: #18191A;
     font-size: 15px;
+    color: #E4E6EB;
 }
 
 @keyframes fade {
