@@ -20,21 +20,21 @@ a {
 
 #header {
     padding-top: 40px;
-    font-size: 22px;
+    font-size: 32px;
     animation-name: showin;
     animation-duration: 1s;
     color: #E4E6EB;
 }
 
 #desc {
-    font-size: 16px;
+    font-size: 18px;
     animation-name: showin;
     animation-duration: 1s;
     color: #E4E6EB;
 }
 
 .collapsible {
-    background-color: #404040;
+    background-color: #3A3B3C;
     cursor: pointer;
     padding-top: 18px;
     padding-bottom: 18px;
@@ -44,7 +44,7 @@ a {
     border-color:  #18191A;
     outline: none;
     font-family: Trebuchet MS;
-    font-size: 18px;
+    font-size: 20px;
     text-align: left;
     animation-name: fade, showin;
     animation-duration: 1s;
@@ -73,23 +73,36 @@ a {
     display: none;
     overflow: hidden;
     background-color: #18191A;
-    font-size: 16px;
+    font-size: 18px;
     animation-name: fade, showin;
     animation-duration: 0.4s;
     color: #E4E6EB;
 }
 
+.lastmeal {
+    width: 25%;
+    margin-right: 10px;
+}
+
+#stardewApp {
+    width: 55%;
+}
+
+.project {
+    margin-bottom: 40px;
+}
+
 .detailsCS {
     margin-left: 80px;
     background-color: #18191A;
-    font-size: 15px;
+    font-size: 16px;
     color: #E4E6EB;
 }
 
 .detailsPSCI {
     margin-left: 80px;
     background-color: #18191A;
-    font-size: 15px;
+    font-size: 16px;
     color: #E4E6EB;
 }
 
