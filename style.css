@@ -57,7 +57,7 @@ a {
 
 .collapsible:after {
     content: '\02795';
-    font-size: 13px;
+    font-size: 20px;
     float: left;
     margin-right: 10px;
 }
