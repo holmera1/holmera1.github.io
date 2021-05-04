@@ -90,7 +90,11 @@ a {
 }
 
 .project {
-    margin-bottom: 40px;
+    margin-bottom: 30px;
+}
+
+.projName {
+    font-weight: bold;
 }
 
 .detailsCS {
