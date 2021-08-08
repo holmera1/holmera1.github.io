@@ -89,6 +89,10 @@ a {
     width: 55%;
 }
 
+#codeSamples {
+    width: 70%;
+}
+
 .project {
     margin-top: 25px;
     margin-bottom: 25px;
